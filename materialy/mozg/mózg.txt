@@ -1,0 +1,9 @@
+Mózg:
+- pdf z analiz¹ obrazu muzgu - https://www.google.pl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=15&cad=rja&uact=8&ved=0CFIQFjAO&url=http%3A%2F%2Fwww.inzynieria-biomedyczna.com%2Findex.php%2Farchiwum-wydan%2F2010-4%2F95-367-371okpoprawione%2Fdownload&ei=a7EcU4L7A6S07QbPtoGQCA&usg=AFQjCNGjaYr14Lprr_dhNAtEUPFVoHOIYQ
+- kliknij któr¹œ linie, s¹ tu zdjêcia przekrojów mózgu - https://www.msu.edu/~brains/brains/human/coronal/nav-justbrainL.html
+- mózg do pobrania - http://brainweb.bic.mni.mcgill.ca/brainweb/selection_normal.html
+- BRAINX (zdjêcia mózgu w formacie DMX) - http://www.osirix-viewer.com/datasets/
+- przej¿a³em t¹ pracê i jest w³aœnie o tym jak z obrazu 2D zrobiæ 3D. Jest tam takie ³adne zdjecie truskawki, z której zrobi³ punkty i potem zrobi³ model 3D - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.100.2308&rep=rep1&type=pdf
+- gotowy kod z MatLaba i nazwa algorytmu - http://stackoverflow.com/questions/16148742/2d-to-3d-conversion-using-dubois-anaglyph-algorithm
+- tu sa algorytmy do przetwarzania obrazów - http://mipav.cit.nih.gov/pubwiki/index.php/Using_MIPAV_Algorithms
+- strasznie d³uga praca o conwersji 2d -> 3d na CUDA- https://www.google.pl/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CCkQFjAA&url=http%3A%2F%2Fopus4.kobv.de%2Fopus4-zib%2Ffiles%2F4218%2Fwende_steinke.pdf&ei=NMEcU9XcLuWA4gSY0oCAAQ&usg=AFQjCNHRKL_B4tStR2WFg-MzP_g2_2FFJw

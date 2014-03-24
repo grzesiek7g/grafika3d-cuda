@@ -1,0 +1,41 @@
+Real-Time Interactive Visualization of Volumetric Data with WebGL
+http://demos.vicomtech.org/volren/
+
+Cuda Tutorial 1: Introduction 
+http://www.youtube.com/watch?v=m0nhePeHwFs
+
+http://gpuscience.com/tag/mri/
+
+List of open-source packages
+http://www0.cs.ucl.ac.uk/opensource_mia_ws_2012/links.html
+
+My first CUDA program!
+http://llpanorama.wordpress.com/2008/05/21/my-first-cuda-program/
+
+http://wiki.arnesenfamily.net/doku.php?id=byu:projects:cuda_ct
+
+3d Reconstruction of a brain from MRI data (video)
+http://thebrainobservatory.ucsd.edu/content/3d-reconstruction-brain-mri-data
+
+Brain MRI 3D Reconstruction 
+http://www.youtube.com/watch?v=9UCaxkvWe-8
+
+!!!!! BAZA BrainWeb: Simulated Brain Database
+http://brainweb.bic.mni.mcgill.ca/brainweb/
+
+GPU raycasting tutorial - GPU raycasting
+http://www.daimi.au.dk/~trier/?page_id=98
+=================
++++++++++++++++++
+=================
+
+potrzeba :
+- visual studio  C++ Express
+- CUDA SDK
+
+
++++++++++++++++++++
+tagi:
+ display system for 3D volume data constructed from computational tomography (CT) or magnetic resonance imaging (MRI) data.
+ 
+ 3d Reconstruction of a brain from MRI data
