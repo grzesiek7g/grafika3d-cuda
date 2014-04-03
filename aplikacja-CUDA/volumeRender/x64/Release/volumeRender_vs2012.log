@@ -1,0 +1,9 @@
+﻿Build started 2014-04-03 21:12:38.
+     1>Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_vs2012.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         volumeRender_vs2012.vcxproj -> C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\../../bin/win64/Release/volumeRender.exe
+     1>Done Building Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_vs2012.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

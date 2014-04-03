@@ -1,0 +1,20 @@
+﻿Build started 2014-04-03 19:37:50.
+     1>Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_vs2012.vcxproj" on node 2 (Build target(s)).
+     1>CudaBuild:
+         Compiling CUDA source file volumeRender_kernel.cu...
+         cmd.exe /C "C:\Users\Grze\AppData\Local\Temp\tmpcd92d0b285114c34a8a57e831bb58bd0.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I./ -I../../common/inc -I./ -I../../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler "/wd 4819"  -g   -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd  " -o x64/Debug/volumeRender_kernel.cu.obj "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_kernel.cu"
+         
+         C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -gencode=arch=compute_10,code=\"sm_10,compute_10\" -gencode=arch=compute_20,code=\"sm_20,compute_20\" -gencode=arch=compute_30,code=\"sm_30,compute_30\" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I./ -I../../common/inc -I./ -I../../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler "/wd 4819"  -g   -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MTd  " -o x64/Debug/volumeRender_kernel.cu.obj "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_kernel.cu" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win64/Debug//volumeRender.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\x64" /LIBPATH:../../common/lib/x64 cudart_static.lib freeglut.lib glew64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64/Debug/volumeRender.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\bin\win64\Debug\volumeRender.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win64/Debug/volumeRender.lib" /MACHINE:X64 x64/Debug/volumeRender_kernel.cu.obj
+         x64/Debug/volumeRender.obj
+     1>volumeRender.obj : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in volumeRender_kernel.cu.obj
+            Creating library ../../bin/win64/Debug/volumeRender.lib and object ../../bin/win64/Debug/volumeRender.exp
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>../../bin/win64/Debug//volumeRender.exe : fatal error LNK1319: 1 mismatches detected
+     1>Done Building Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_vs2012.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:18.30
