@@ -1,0 +1,12 @@
+﻿Build started 2014-04-10 17:43:20.
+     1>Project "F:\Dropbox\Studia\sem10\Grafika 3-D i systemy mult.(2)\grafika3d-cuda\aplikacja-CUDA\CUDAvolumeRender\volumeRender_vs2012.vcxproj" on node 2 (Clean target(s)).
+     1>CudaClean:
+         cmd.exe /C "C:\Users\Grze\AppData\Local\Temp\tmpefe206e37bf040d2a08ceee42c023afd.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I./ -I../../common/inc -I./ -I../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile  -Xcompiler "/wd 4819"     -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MT  " -o x64/Release/volumeRender_kernel.cu.obj "F:\Dropbox\Studia\sem10\Grafika 3-D i systemy mult.(2)\grafika3d-cuda\aplikacja-CUDA\CUDAvolumeRender\volumeRender_kernel.cu" -clean
+         
+         F:\Dropbox\Studia\sem10\Grafika 3-D i systemy mult.(2)\grafika3d-cuda\aplikacja-CUDA\CUDAvolumeRender>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -I./ -I../../common/inc -I./ -I../common/inc -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include"     --keep-dir x64\Release -maxrregcount=0  --machine 64 --compile  -Xcompiler "/wd 4819"     -DWIN32 -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MT  " -o x64/Release/volumeRender_kernel.cu.obj "F:\Dropbox\Studia\sem10\Grafika 3-D i systemy mult.(2)\grafika3d-cuda\aplikacja-CUDA\CUDAvolumeRender\volumeRender_kernel.cu" -clean 
+     1>Done Building Project "F:\Dropbox\Studia\sem10\Grafika 3-D i systemy mult.(2)\grafika3d-cuda\aplikacja-CUDA\CUDAvolumeRender\volumeRender_vs2012.vcxproj" (Clean target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.85
