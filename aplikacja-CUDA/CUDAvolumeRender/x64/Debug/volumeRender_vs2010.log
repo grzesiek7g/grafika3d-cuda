@@ -1,0 +1,29 @@
+﻿Build started 2014-03-26 20:43:11.
+     1>Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_vs2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64/Debug/volumeRender.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       AddCudaCompileDeps:
+       Skipping target "AddCudaCompileDeps" because all output files are up-to-date with respect to the input files.
+       AddCudaCompilePropsDeps:
+       Skipping target "AddCudaCompilePropsDeps" because all output files are up-to-date with respect to the input files.
+       CudaBuild:
+       Skipping target "CudaBuild" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I./ /I../../common/inc /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64/Debug/" /Fd"x64/Debug/vc100.pdb" /Gd /TP /errorReport:prompt volumeRender.cpp
+         volumeRender.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"../../bin/win64/Debug//volumeRender.exe" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\x64" /LIBPATH:../../common/lib/x64 cudart_static.lib freeglut.lib glew64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64/Debug/volumeRender.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\bin\win64\Debug\volumeRender.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"../../bin/win64/Debug/volumeRender.lib" /MACHINE:X64 x64/Debug/volumeRender_kernel.cu.obj
+         x64/Debug/volumeRender.obj
+         LINK : ../../bin/win64/Debug//volumeRender.exe not found or not built by the last incremental link; performing full link
+            Creating library ../../bin/win64/Debug/volumeRender.lib and object ../../bin/win64/Debug/volumeRender.exp
+         volumeRender_vs2010.vcxproj -> C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\../../bin/win64/Debug/volumeRender.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../bin/win64/Debug//volumeRender.exe;#1" /manifest x64/Debug/volumeRender.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64/Debug/volumeRender.unsuccessfulbuild".
+         Touching "x64/Debug/volumeRender.lastbuildstate".
+     1>Done Building Project "C:\ProgramData\NVIDIA Corporation\CUDA Samples\v5.5\2_Graphics\volumeRender\volumeRender_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.91
