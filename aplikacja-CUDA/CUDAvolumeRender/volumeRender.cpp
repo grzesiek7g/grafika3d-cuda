@@ -322,18 +322,18 @@ void keyboard(unsigned char key, int x, int y)
 		case 'v':
 			viewType++;
 			//if(viewType>1) viewType = 0;
-			viewType%=4;
-			if(viewType==1)
+			viewType%=5;
+			if(viewType==2)
 			{
 				viewRotation.x=90;
 				viewRotation.y=0;
 			}
-			else if(viewType==2)
+			else if(viewType==3)
 			{
 				viewRotation.x=180;
 				viewRotation.y=270;
 			}
-			else if(viewType==3)
+			else if(viewType==4)
 			{
 				viewRotation.x=180;
 				viewRotation.y=0;

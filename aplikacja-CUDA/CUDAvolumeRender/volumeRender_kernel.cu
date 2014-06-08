@@ -134,15 +134,20 @@ d_render(uint *d_output, uint imageW, uint imageH,
 		 boxMax = make_float3(1.0f, 1.0f, 1.0f);
 
 		break;
-	case 1: //Y-AXIS
+	case 1: //3D view
+		 boxMin = make_float3(-1.0f, -1.0f, -1.0f);
+		 boxMax = make_float3(1.0f, 1.0f, 1.0f);
+
+		break;
+	case 2: //Y-AXIS
 		    boxMin = make_float3(-1.0f, ySliceShow, -1.0f); //HERE
 			boxMax = make_float3(1.0f, ySliceShow+0.001f, 1.0f);
 		break;
-	case 2: //X-AXIS
+	case 3: //X-AXIS
 		boxMin = make_float3(ySliceShow,-1.0f,  -1.0f); //HERE
 		boxMax = make_float3(ySliceShow+0.001f,1.0f,  1.0f);
 	break;
-	case 3: //Z-AXIS
+	case 4: //Z-AXIS
 		boxMin = make_float3(-1.0f, -1.0f, ySliceShow); //HERE
 		boxMax = make_float3(1.0f, 1.0f, ySliceShow+0.001f);
 	break;
@@ -171,7 +176,12 @@ d_render(uint *d_output, uint imageW, uint imageH,
     if (!hit) return;
 
     if (tnear < 0.0f) tnear = 0.0f;     // clamp to near plane
-
+	if (viewType ==1&&( tnear<(ySliceShow+1)*2||tfar>(ySliceShow+1)*2+0.01))
+	{
+		tnear = (ySliceShow+1)*2;
+		tfar = tnear + 0.01;
+	}
+	
     // march along ray from front to back, accumulating color
     float4 sum = make_float4(0.0f);
     float t = tnear;
